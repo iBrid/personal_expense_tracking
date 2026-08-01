@@ -22,6 +22,9 @@ Use `/home/runner/work/personal_expense_tracking/personal_expense_tracking/perso
     - Entertainment
     - Miscellaneous
     - Salary, Bonus, Freelance, Investment, Refund, Other Income
+  - Includes clickable quick buttons in cells `J2` and `J3`:
+    - **Add 1 Row**: jumps to the next available entry row
+    - **Add 10 Rows**: jumps 10 rows below the next available entry row
 - **Categories**: editable source list used by the category dropdown.
 - **Reports**: monthly, quarterly, and yearly spending summaries and highest-spend category.
 
