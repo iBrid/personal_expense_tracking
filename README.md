@@ -6,29 +6,28 @@ An expense tracking template to keep track of your daily spending and generate i
 Use `/home/runner/work/personal_expense_tracking/personal_expense_tracking/personal_expense_tracking_template.xlsx`.
 
 ### Included sheets
-- **Transactions**: enter Date, Type, Category, Description, and Amount for each entry.
-  - **Type** has a dropdown: `Expense` or `Income`
-  - **Category** has pre-populated dropdown values including:
-    - Gas
-    - Groceries
-    - Phone Bill
-    - Power Bill
-    - Life Insurance
-    - Car Loan Payment
-    - Rent/Mortgage
-    - Internet
-    - Dining Out
-    - Medical
-    - Entertainment
-    - Miscellaneous
-    - Salary, Bonus, Freelance, Investment, Refund, Other Income
+- **January** to **December**: separate monthly entry sheets with:
+  - Columns for `Expense (CAD)` and `Income (CAD)`
+  - Category dropdown sourced from `Categories`
+  - Clickable quick-add buttons:
+    - `➕ Add 1 Row`
+    - `➕ Add 10 Rows`
 - **Categories**: editable source list used by the category dropdown.
-- **Reports**: monthly, quarterly, and yearly spending summaries and highest-spend category.
+- **Reports**: redesigned CAD dashboard with monthly expense/income separation, savings insights, and category-level monthly breakdown.
 
 ### Reporting
 In the **Reports** sheet, set:
 - **Report Year**
-- **Report Month (1-12)**
-- **Report Quarter (1-4)**
+- **Selected Month (1-12)**
+- **Selected Quarter (1-4)**
 
-The report automatically calculates spending totals by category and highlights the highest-spend category for monthly, quarterly, and yearly views.
+The report now:
+- Separates each month into **Expense (CAD)** and **Income (CAD)** columns
+- Calculates **Net Savings** and **Savings Rate** per month and yearly totals
+- Calculates selected quarter expense/income/net values
+- Generates key insights such as highest expense month, highest income month, and best savings month
+- Includes a selected-month category breakdown with separate expense and income columns
+- Uses color-coded sections to make data entry and reporting easier to read
+
+### Currency
+All amount fields are formatted as **Canadian dollars (CAD)**.
